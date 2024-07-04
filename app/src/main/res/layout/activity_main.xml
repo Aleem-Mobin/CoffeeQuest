@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/brown"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_message"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="130dp"
+        android:textColor="@color/orange_yellow"
+        android:layout_above="@id/registerButton"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register Your Brand!"
+        android:layout_marginBottom="8dp"
+        android:paddingHorizontal="23dp"
+        android:textColor="@color/olive"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_buttons"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/browseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Browse Coffee Brands"
+        android:layout_below="@id/registerButton"
+        android:layout_marginTop="8dp"
+        android:paddingHorizontal="18dp"
+        android:textColor="@color/olive"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_buttons"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

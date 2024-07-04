@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.CoffeeShopApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize theme here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <item name="android:buttonStyle">@style/WhiteTextButton</item>
+    </style>
+
+    <style name="WhiteTextButton">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
